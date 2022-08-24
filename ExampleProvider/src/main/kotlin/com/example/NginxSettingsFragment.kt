@@ -1,4 +1,4 @@
-package com.exemple
+package com.example
 
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
