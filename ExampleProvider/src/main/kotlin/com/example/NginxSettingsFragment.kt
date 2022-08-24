@@ -1,4 +1,4 @@
-package com.nginx
+package com.lagradost
 
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
