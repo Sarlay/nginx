@@ -18,7 +18,6 @@ class ExampleProvider : MainAPI() {
     // override var lang = "en" //no specific language 
     override val hasMainPage = true
     override val hasQuickSearch = false
-    override val hasMainPage = false
     override val supportedTypes = setOf(TvType.AnimeMovie, TvType.TvSeries, TvType.Movie)
 
     companion object {
