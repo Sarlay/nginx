@@ -4,8 +4,6 @@ import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.SearchResponse
 
-package com.lagradost.cloudstream3.movieproviders
-
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
@@ -15,7 +13,7 @@ import com.lagradost.cloudstream3.utils.Qualities
 import com.lagradost.cloudstream3.utils.SubtitleHelper
 import com.lagradost.cloudstream3.utils.loadExtractor
 
-class NginxProvider : MainAPI() {
+class ExampleProvider : MainAPI() {
     override var name = "Nginx"
     // override var lang = "en" //no specific language 
     override val hasMainPage = true
@@ -423,8 +421,4 @@ class NginxProvider : MainAPI() {
         // if (returnList.isEmpty()) return null // maybe doing nothing idk
         return HomePageResponse(returnList)
     }
-}
-
-class ExampleProvider : MainAPI() { // all providers must be an instance of MainAPI
-    
 }
