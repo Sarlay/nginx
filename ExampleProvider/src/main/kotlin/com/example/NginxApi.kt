@@ -1,4 +1,4 @@
- package com.lagradost
+ package com.example
 
  import com.lagradost.cloudstream3.AcraApplication.Companion.getKey
  import com.lagradost.cloudstream3.AcraApplication.Companion.setKey
