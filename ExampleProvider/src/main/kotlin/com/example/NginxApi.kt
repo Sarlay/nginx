@@ -1,4 +1,4 @@
- package com.nginx
+ package com.lagradost
 
  import com.lagradost.cloudstream3.AcraApplication.Companion.getKey
  import com.lagradost.cloudstream3.AcraApplication.Companion.setKey
