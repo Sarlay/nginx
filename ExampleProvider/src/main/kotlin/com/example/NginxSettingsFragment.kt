@@ -1,4 +1,4 @@
-package com.lagradost
+package com.exemple
 
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
