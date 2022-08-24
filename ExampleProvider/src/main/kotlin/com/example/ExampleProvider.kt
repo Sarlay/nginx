@@ -1,4 +1,4 @@
-package com.example
+package com.nginx
 
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.MainAPI
@@ -13,7 +13,7 @@ import com.lagradost.cloudstream3.utils.Qualities
 import com.lagradost.cloudstream3.utils.SubtitleHelper
 import com.lagradost.cloudstream3.utils.loadExtractor
 
-class ExampleProvider : MainAPI() {
+class NginxProvider : MainAPI() {
     override var name = "Nginx"
     // override var lang = "en" //no specific language 
     override val hasMainPage = true
